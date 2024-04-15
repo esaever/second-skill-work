@@ -1,0 +1,32 @@
+Semantic and non-semantic elements are terms often used in the context of web development and HTML.
+
+Semantic Elements:
+
+Semantic elements are those HTML tags that clearly describe their meaning in a human-readable way.
+These elements convey the purpose or meaning of the content they enclose, making the code more understandable for both developers and machines.
+Examples of semantic elements include <header>, <footer>, <nav>, <article>, <section>, <aside>, <figure>, <figcaption>, <main>, <time>, etc.
+Semantic elements help improve accessibility, search engine optimization (SEO), and maintainability of web pages.
+Non-Semantic Elements:
+
+Non-semantic elements are those HTML tags that do not inherently convey any meaning about the content they contain.
+These elements are typically used for layout and formatting purposes.
+Examples of non-semantic elements include <div>, <span>, <i>, <b>, <font>, <br>, <table>, <img>, etc.
+While non-semantic elements are essential for structuring the layout and styling of web pages, they do not provide any contextual information about the content they enclose.
+In summary, semantic elements are preferred in HTML because they provide meaning and context to the content, which improves accessibility, SEO, and code readability. Non-semantic elements, on the other hand, are primarily used for layout and presentation purposes.
+
+
+A closing tag is used to denote the end of an element in HTML. It consists of the element name enclosed in angle brackets preceded by a forward slash. For example, <p> is an opening tag for a paragraph element, and </p> is its corresponding closing tag.
+A self-closing tag, on the other hand, is used to represent an element that doesn't have any content inside it and doesn't need a closing tag. Instead, it ends with a forward slash before the closing angle bracket. For instance, <img src="image.jpg" /> is a self-closing tag for an image element.
+In summary, the main difference is that closing tags are used to mark the end of an element with content, while self-closing tags are used for elements that don't contain any content.
+
+
+Inline elements and block-level elements are two fundamental building blocks of HTML, each with its own behavior and properties:
+Block-level Elements:
+Block-level elements typically start on a new line and take up the full width available, pushing subsequent elements to a new line.
+Examples of block-level elements include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>, <form>, etc.
+Block-level elements can contain other block-level and inline elements.
+
+Inline Elements:
+Inline elements do not start on a new line; they flow within the content and only take up as much width as necessary.
+Examples of inline elements include <span>, <a>, <strong>, <em>, <img>, <input>, <abbr>, <code>, etc.
+Inline elements cannot contain block-level elements but can contain other inline elements.
